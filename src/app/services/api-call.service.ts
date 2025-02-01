@@ -7,7 +7,7 @@ import { Property } from '../models/property';
   providedIn: 'root',
 })
 export class ApiCallService {
-  private apiUrl = 'http://127.0.0.1:8000/';
+  private apiUrl = 'https://estate-24ce884b10e6.herokuapp.com/';
 
   constructor(private http: HttpClient) {}
 

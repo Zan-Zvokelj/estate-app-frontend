@@ -19,9 +19,6 @@ export class BookTourComponent {
     phone: '',
   };
 
-
-
-
   // EmailJS service, template, and public user ID
   serviceID = 'service_qilj1ej'; // Your Service ID
   templateID = 'template_ddwksrp'; // Your Template ID
@@ -80,7 +77,6 @@ export class BookTourComponent {
         }
       );
   }
-
 
   goBack() {
     this.router.navigate(['/']); // Navigate back to the previous route or home page

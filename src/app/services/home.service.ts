@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root',
 })
 export class HomeService {
-  private apiUrl = 'http://localhost:8000/properties-home/';
+  private apiUrl = 'https://estate-24ce884b10e6.herokuapp.com/properties-home/';
 
   constructor(private http: HttpClient) {}
 

@@ -14,7 +14,7 @@ const httpOptions = {
 export class AuthService {
   private loggedInStatus = new BehaviorSubject<boolean>(false);
 
-  api_url: string = 'http://localhost:8000/';
+  api_url: string = 'https://estate-24ce884b10e6.herokuapp.com/';
 
   constructor(private http: HttpClient) {}
 
