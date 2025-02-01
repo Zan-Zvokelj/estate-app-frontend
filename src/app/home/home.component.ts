@@ -86,17 +86,17 @@ export class HomeComponent implements OnInit {
       this.selectedProperty?.home_type === 'Studio'
     ) {
       this.imageGallery = [
-        '/assets/apartment2.jpg',
-        '/assets/apartmentinside.jpg',
-        '/assets/apartmentinside.jpg',
-        '/assets/apartmentinside.jpg',
+        '/estate-app-frontend/assets/apartment2.jpg',
+        '/estate-app-frontend/assets/apartmentinside.jpg',
+        '/estate-app-frontend/assets/apartmentinside.jpg',
+        '/estate-app-frontend/assets/apartmentinside.jpg',
       ];
     } else {
       this.imageGallery = [
-        '/assets/house.jpg',
-        '/assets/house2.jpg',
-        '/assets/house2.jpg',
-        '/assets/house2.jpg',
+        '/estate-app-frontend/assets/house.jpg',
+        '/estate-app-frontend/assets/house2.jpg',
+        '/estate-app-frontend/assets/house2.jpg',
+        '/estate-app-frontend/assets/house2.jpg',
       ];
     }
     this.selectedImage = this.imageGallery[0]; // Set default main image
